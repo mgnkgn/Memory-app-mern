@@ -1,0 +1,24 @@
+{
+  "name": "memory-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run server\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgnkgn/Memory-app-mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgnkgn/Memory-app-mern/issues"
+  },
+  "homepage": "https://github.com/mgnkgn/Memory-app-mern#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
