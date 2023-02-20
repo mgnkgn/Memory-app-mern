@@ -17,7 +17,7 @@ const ListItem = (props) => {
 
   const deleteFormDataFromDb = async (id1, id2) => {
     const response = await fetch(
-      `https://swmemoryapp.onrender.com/${id1}${id2}`,
+      `https://swmemoryapp.onrender.com/api/memories/${id1}${id2}`,
       {
         method: "DELETE",
         headers: {
