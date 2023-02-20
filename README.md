@@ -16,4 +16,4 @@ https://memory-app-dj.netlify.app/
 
 ### Deleting a memo
 
-![Deleting-a-memo](./records/Deleting-a-memo-fast.mp4.mp4)
+![Deleting-a-memo](https://clipchamp.com/watch/yG3dXPwM5zi)
