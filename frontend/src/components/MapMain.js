@@ -71,11 +71,6 @@ const MapMain = () => {
       <Marker icon={myIcon} position={position} key={"marker-nda"}>
         <Popup>
           <div>Hello there👋</div>
-          <div>
-            <a href="https://nazli-akguen.jimdosite.com/edge/" target="_blank">
-              Check my site ➡️
-            </a>
-          </div>
         </Popup>
       </Marker>
       <Markers />

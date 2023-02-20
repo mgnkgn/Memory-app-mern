@@ -10,11 +10,9 @@ const Login = () => {
   const [pass, setPass] = useState();
 
   const usernameChangeHandler = (event) => {
-    console.log(event.target.value);
     setUsername(event.target.value);
   };
   const passChangeHandler = (event) => {
-    console.log(event.target.value);
     setPass(event.target.value);
   };
 
