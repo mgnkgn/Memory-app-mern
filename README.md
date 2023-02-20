@@ -8,12 +8,12 @@ https://memory-app-dj.netlify.app/
 
 ### Adding a memo
 
-![Adding-a-memo](./records/Saving-a-memo.mp4)
+![Adding-a-memo](./records/Saving-a-memo-fast.mp4.mp4)
 
 ### Visiting as a guest
 
-![Visiting-as-a-guest](./records/Visiting-as-guest.mp4)
+![Visiting-as-a-guest](./records/Visiting-as-guest-fast.mp4.mp4)
 
 ### Deleting a memo
 
-![Deleting-a-memo](./records/Deleting-a-memo.mp4)
+![Deleting-a-memo](./records/Deleting-a-memo-fast.mp4.mp4)
