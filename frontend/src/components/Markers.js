@@ -19,13 +19,16 @@ const Markers = () => {
   const { data, isLoading, error } = UseMemory();
 
   const postMarkerToDb = async (markerObj) => {
-    const response = await fetch("http://localhost:8000/api/memories/new", {
-      method: "POST",
-      body: JSON.stringify(markerObj),
-      headers: {
-        "Content-type": "application/json; charset=UTF-8",
-      },
-    });
+    const response = await fetch(
+      "https://swmemoryapp.onrender.com/api/memories/new",
+      {
+        method: "POST",
+        body: JSON.stringify(markerObj),
+        headers: {
+          "Content-type": "application/json; charset=UTF-8",
+        },
+      }
+    );
   };
 
   // console.log(data);

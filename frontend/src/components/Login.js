@@ -21,16 +21,19 @@ const Login = () => {
   const submitHandler = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch(`http://localhost:8000/api/login`, {
-        method: "POST",
-        headers: {
-          "Content-type": "application/json; charset=UTF-8",
-        },
-        body: JSON.stringify({
-          username: username,
-          password: pass,
-        }),
-      });
+      const response = await fetch(
+        `https://swmemoryapp.onrender.com/api/login`,
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+          body: JSON.stringify({
+            username: username,
+            password: pass,
+          }),
+        }
+      );
 
       if (!response.ok) {
         return null;
